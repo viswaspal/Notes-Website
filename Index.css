@@ -1,0 +1,152 @@
+.navbar
+{
+	border:3px solid brown;
+	background-color:brown;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	border-radius:28px;
+}
+#i1,#i2
+{
+	float:left;
+	margin:7px;
+	padding:13px;
+}
+.c
+{
+	list-style:none;
+}
+.search
+{
+	position:absolute;
+	float:right;
+	padding:18px;
+	left:85rem;
+
+}
+ul
+{
+	overflow:none;
+}
+@media only screen and (max-width:600px)
+{
+	.search
+	{
+		left:13rem;
+		float:right;
+	}
+
+}
+
+
+@media only screen and (min-width:600px)
+{
+	.search
+	{
+		left:25rem;
+		float:right;
+	}
+}
+@media only screen and (min-width:800px)
+{
+	.search
+	{
+		left:30rem;
+		float:right;
+	}
+}
+@media only screen and (min-width:1000px)
+{
+	.search
+	{
+		left:45rem;
+		float:right;
+	}
+}
+
+@media only screen and (min-width:1200px)
+{
+	.search
+	{
+		left:65rem;
+		float:right;
+	}
+}
+input
+{
+	border-radius:8px;
+}
+#addBtn
+{
+	border:2px solid green;
+	border-radius:10px;
+	background-color:green;
+	color:white;
+	padding:2px;
+
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+.container
+{
+	display:flex;
+	border:3px solid brown;
+	flex-wrap:wrap;
+	background-image:url('Image5.jpeg');
+	border-radius:18px;
+	flex-direction:column;
+	background-repeat:no-repeat;
+	/*background-size:1800px 400px;*/
+	
+	background-size:cover;
+}
+#h1
+{
+	text-align:center;
+}
+button
+{
+	border-radius:8px;
+	background-color:green;
+	color:white;
+}
+textarea
+{
+	border-radius:7px;
+}
+.notecard
+{
+	border:3px solid brown;
+	background-color:lightyellow;
+	color:purple;
+	display:inline-block;
+	border-radius:18px;
+	margin-right:200px;
+	margin-bottom:70px;
+	margin-top:20px;
+
+}
+.card_body
+{
+	padding:10px;
+}
+#dlt
+{
+	border-radius:8px;
+	background-color:brown;
+	color:white;
+	padding:7px;
+}
+#notes
+{
+	background-image:url("Image2.jpeg");
+	background-size:cover;
+}
+.card_body .btn
+{
+	background-color:orange;
+}
